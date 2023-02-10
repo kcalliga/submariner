@@ -3,4 +3,5 @@ kind: SubmarinerConfig
 metadata:
     name: submariner
     namespace: spoke2
-spec:{}
+spec:
+  cableDriver: vxlan
