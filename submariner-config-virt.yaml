@@ -1,0 +1,7 @@
+apiVersion: submarineraddon.open-cluster-management.io/v1alpha1
+kind: SubmarinerConfig
+metadata:
+    name: submariner
+    namespace: virt
+spec:
+  cableDriver: vxlan
