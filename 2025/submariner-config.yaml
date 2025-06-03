@@ -1,0 +1,22 @@
+---
+
+apiVersion: submarineraddon.open-cluster-management.io/v1alpha1
+kind: SubmarinerConfig
+metadata:
+    name: submariner
+    namespace: local-cluster
+spec:
+    clusterID: hub
+    gatewayConfig:
+      gateways: 1
+
+---
+
+kind: SubmarinerConfig
+metadata:
+    name: submariner
+    namespace: virt
+spec:
+    clusterID: virt
+    gatewayConfig:
+      gateways: 1
