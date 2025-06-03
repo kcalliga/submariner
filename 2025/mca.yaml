@@ -1,0 +1,15 @@
+kind: ManagedClusterAddOn
+metadata:
+     name: submariner
+     namespace: local-cluster
+spec:
+     installNamespace: submariner-operator
+
+--- 
+
+kind: ManagedClusterAddOn
+metadata:
+     name: submariner
+     namespace: virt
+spec:
+     installNamespace: submariner-operator
